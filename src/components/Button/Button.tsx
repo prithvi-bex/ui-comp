@@ -39,6 +39,7 @@ const Button = ({
     <button
       type="button"
       className={classNames(
+        "bg-black",
         "storybook-button",
         `storybook-button--${size}`,
         `storybook-button--${type}`
